@@ -15,8 +15,8 @@ const Home = () => {
             I'm a Frontend Developer
           </h2>
           <p className="text-gray-500 py-4 max-w-md">
-            i am a Frontend developer, I studied at pondok IT for 1 year.
-            Currently, i enjoy working on web applications using technologies
+            I'm Reza, I studied at pondok IT for 1 year.
+            Currently, I enjoy working on web applications using technologies
             such as React, Tailwind,and Next JS
           </p>
 

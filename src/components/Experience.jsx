@@ -1,7 +1,5 @@
 import React from "react";
-import html from "../assets/html.png";
-import css from "../assets/css.png";
-import github from "../assets/github.png";
+import git from "../assets/git.png";
 import javascript from "../assets/javascript.png";
 import nextjs from "../assets/nextjs.png";
 import react from "../assets/react.png";
@@ -11,42 +9,30 @@ const Experience = () => {
   const experiences = [
     {
       id: 1,
-      img: html,
-      title: "HTML",
+      img: git,
+      title: "Git",
       style: "shadow-orange-500",
     },
     {
       id: 2,
-      img: css,
-      title: "CSS",
-      style: "shadow-blue-500",
-    },
-    {
-      id: 3,
-      img: github,
-      title: "Github",
-      style: "shadow-yellow-500",
-    },
-    {
-      id: 4,
       img: javascript,
       title: "Javascript",
       style: "shadow-yellow-500",
     },
     {
-      id: 5,
+      id: 3,
       img: nextjs,
       title: "NextJS",
       style: "shadow-white",
     },
     {
-      id: 6,
+      id: 4,
       img: react,
       title: "React",
       style: "shadow-blue-500",
     },
     {
-      id: 7,
+      id: 5,
       img: tailwind,
       title: "Tailwind",
       style: "shadow-sky-500",
@@ -64,6 +50,7 @@ const Experience = () => {
           </p>
           <p className="py-6">these are the technologies I've worked with</p>
         </div>
+
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
           {experiences.map(({ id, img, title, style }) => (
             <div
